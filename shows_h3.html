@@ -2,9 +2,30 @@
 <html>
 
 <head>
+
+
+  <style>
+    body {
+      background-color: #fff;
+      background-image: url(../Images/UsedPhotos/stage3_background.jpg);
+      no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  </style>
+
+
+
+
+
   <meta charset="utf-8">
-  <title>Shows</title>
+  <title>The Magic Of Devin Graupmann - Shows</title>
   <link rel="stylesheet" href="Untitled.css">
+  <link rel="icon" 
+      type="image/png" 
+      href="favicon.png">
 </head>
 
 <body>
@@ -33,13 +54,6 @@
   <br>
   <h3>Close up</h3>
   <p></p>
-  
-
-  <div style="width: 100%; background-color: #ffffff; color: #000">
-
-
-
-    <body>
 
 
 
@@ -47,10 +61,22 @@
 
 
 
-      <p>Copyright © 2020. Devin Graupmann. All rights reserved.</p>
 
 
-  </div>
+
+
+
+
+
+  <p><small>Copyright © 2021<span id="lblYear"></span>. Devin Graupmann. All rights reserved.</small></p>
+  <script>
+    if (new Date().getFullYear() > 2021) {
+      lblYear.innerText = ' to ' + new Date().getFullYear();
+    }
+  </script>
+
+
+
 
 </body>
 

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
-    <title>Contact</title>
+    <title>The Magic Of Devin Graupmann - Contact</title>
     <link rel="stylesheet" href="Untitled.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
@@ -40,8 +41,8 @@
 
 
 <h2 class="red">  WARNING! Work In Progress. Form Will Not send! Contact Devin Graupmann through email instead at <a href="mailto:DevinEthanG@gmail.com">DevinEthanG@gmail.com</a>   </h2>
-    <form action="FormSent.html" method="POST"> 
-
+    <form action="https://classdemo.amerabyte.net/Student_Tools/process.php" target="_blank" method="POST"> 
+        
         <meta charset="utf-8">
         </head>
 
@@ -150,7 +151,7 @@
                         </li>
                         <br>
                         <li> 
-                            <label for="how did you hear about The Magic of Devin Graupmann">How Did You Hear About The Magic of Devin Graupmann:</label> 
+                            <label for="How Did You Hear About The Magic of Devin Graupmann">How Did You Hear About The Magic of Devin Graupmann:</label> 
                             <input  type="text" name="How Did You Hear About The Magic of Devin Graupmann" 
                                     id="How Did You Hear About The Magic of Devin Graupmann">
                         </li>
@@ -185,7 +186,7 @@
             
                     </ol>   
                     <center>
-                    <textarea name="comment" rows="4" cols="45" placeholder="Additonal Infomation"></textarea>
+                    <textarea name="Additonal Infomation" rows="4" cols="45" placeholder="Additonal Infomation"></textarea>
                     </center>
                     <br>
             </div>         
@@ -215,8 +216,12 @@
 
 
     
-
-
+    <p><small>Copyright © 2021<span id="lblYear"></span>. Devin Graupmann. All rights reserved.</small></p>
+    <script>
+      if (new Date().getFullYear() > 2021) {
+        lblYear.innerText = ' to ' + new Date().getFullYear();
+      }
+    </script>
 
 </body>
 </html>
