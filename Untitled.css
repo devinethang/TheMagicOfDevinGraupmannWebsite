@@ -109,6 +109,28 @@ a:link {
       margin: 100px;
   }
 
-
+  .shows-entry {
+   margin-bottom: 25px;
+   padding: 15px;
+   background: #FFFFFF88;
+   border: solid 10px #FFFFFF88
+  }
+  .shows-inline {
+   display: inline-table;
+   vertical-align: top;
+ }
+ .shows-block {
+   display: inline-block;
+   vertical-align: top;
+ }
+ .shows-left {
+   border: solid 2px #FFFFFF88
+ }
+ .shows-right {
+   margin-left: 100px;
+   width: 70%;
+   font-size: 1.5em;
+ }
+ .images { border: 5px; color:red; width: 2px; width:300px;}
 
   
