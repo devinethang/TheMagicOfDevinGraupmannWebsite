@@ -109,6 +109,10 @@ a:link {
       margin: 100px;
   }
 
+   .shows-nav {
+      margin-left: 50px;
+      font-size: 1.2em;
+   }
   .shows-entry {
    margin-bottom: 25px;
    padding: 15px;
@@ -120,13 +124,13 @@ a:link {
    vertical-align: top;
  }
  .shows-block {
-   display: inline-block;
    vertical-align: top;
  }
  .shows-left {
    border: solid 2px #FFFFFF88
  }
  .shows-right {
+   margin-top: -30px;
    margin-left: 100px;
    width: 70%;
    font-size: 1.5em;
