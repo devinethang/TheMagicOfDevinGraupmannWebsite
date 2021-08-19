@@ -46,12 +46,16 @@
 
             <div class="contact-form-row">
                 <span class="contact-form-input">
-                    <div class="contact-form-field"><label for="first">First Name:</label></div>
+                    <div class="contact-form-field"><label for="first">First Name:</label>
+                        <font style="color: red">*</font>
+                    </div>
                     <div class="contact-form-value"><input type="text" name="first" id="first"></div>
                 </span>
 
                 <span class="contact-form-input">
-                    <div class="contact-form-field"><label for="last">Last Name:</label></div>
+                    <div class="contact-form-field"><label for="last">Last Name:</label>
+                        <font style="color: red">*</font>
+                    </div>
                     <div class="contact-form-value"><input type="text" name="last" id="last"></div>
                 </span>
 
@@ -59,14 +63,18 @@
 
             <div class="contact-form-row">
                 <span class="contact-form-input">
-                    <div class="contact-form-field"><label for="email">Email: </label></div>
+                    <div class="contact-form-field"><label for="email">Email: </label>
+                        <font style="color: red">*</font>
+                    </div>
                     <div class="contact-form-value"><input type="text" name="Email" id="email"></div>
                 </span>
             </div>
 
             <div class="contact-form-row">
                 <span class="contact-form-input">
-                    <div class="contact-form-field"><label for="phonenumber">Phone Number: </label></div>
+                    <div class="contact-form-field"><label for="phonenumber">Phone Number: </label>
+                        <font style="color: red">*</font>
+                    </div>
                     <div class="contact-form-value"><input type="text" name="PhoneNumber" id="phonenumber"></div>
                 </span>
             </div>
@@ -148,16 +156,19 @@
                     <div class="contact-form-value"><input type="text" name="Date of Event" id="Date of Event">
                     </div>
                 </span>
-                <span class="contact-form-input">
+                <span class="contact-form-input" style="width: 120px">
                     <div class="contact-form-field"><label for="time1">Time:</label></div>
-                    <div class="contact-form-value" style="width: 50%"><input type="text" name="time1" id="Time1"></div>
+                    <div class="contact-form-value" style="width: 100%"><input type="text" name="time1" id="Time1">
+                    </div>
                 </span>
                 <span class="contact-form-input">
-                    to
+                    <br><br>
+                    <span style="margin-top: 200px">to</span>
                 </span>
-                <span class="contact-form-input">
+                <span class="contact-form-input" style="width: 120px">
                     <div class="contact-form-field"><label for="time2">Time:</label></div>
-                    <div class="contact-form-value" style="width: 50%"><input type="text" name="time2" id="Time2"></div>
+                    <div class="contact-form-value" style="width: 100%"><input type="text" name="time2" id="Time2">
+                    </div>
                 </span>
             </div>
             <div class="contact-form-row">
@@ -174,16 +185,8 @@
                 </span>
             </div>
             <div class="contact-form-row">
-                <span class="contact-form-input">
-                    <div class="contact-form-field"><label for="HowDidYouHear">How Did You Hear About The
-                            Magic of Devin Graupmann:</label></div>
-                    <div class="contact-form-value" style="width: 150%"><input type="text" name="HowDidYouHear" id="HowDidYouHear">
-                    </div>
-                </span>
-            </div>
-            <div class="contact-form-row">
                 <div class="contact-form-field"><label for="show type1">Select your type of show:</label></div>
-                <div class="contact-form-value"><select id="shows" name="Shows">
+                <div class="contact-form-value"><select id="shows" name="ShowsType">
                         <option value="mingling">Mingling</option>
                         <option value="close up">Close Up</option>
                         <option value="adult">Stage</option>
@@ -192,11 +195,17 @@
             </div>
             <div class="contact-form-row">
                 <div class="contact-form-field"><label for="show type2">Select your show:</label></div>
-                <div class="contact-form-value"><select id="shows" name="Shows">
-                        <option value="Business Event">Business Event</option>
-                        <option value="Summer Reading">Summer Reading Event</option>
-                        <option value="Birthday Party">Birthday Party</option>
+                <div class="contact-form-value"><select id="shows" name="Show">
+                        <option value="BusinessEvent">Business Event</option>
+                        <option value="SummerReading">Summer Reading Event</option>
+                        <option value="BirthdayParty">Birthday Party</option>
                         <option value="Wedding">Wedding</option>
+                        <option value="CommunityEvent">Community Event</option>
+                        <option value="LibraryPrograms">Library Program</option>
+
+
+
+
                     </select>
                 </div>
             </div>
@@ -204,8 +213,12 @@
             <div class="contact-form-row">
                 <div class="contact-form-field">Additional Information:</div>
                 <div class="contact-form-value"><textarea name="Additonal Infomation" rows="4" cols="45"
-                        placeholder="Additonal Infomation"></textarea></div>
+                        placeholder=""></textarea></div>
             </div>
+
+            <div class="contact-form-field"><label for="budget">How Did You Hear About The
+                    Magic of Devin Graupmann:</label></div>
+            <div class="contact-form-value" style="width: 750px"><input type="text" name="HowDidYouHear" id="HowDidYouHear"></div>
 
             <div class="contact-form-row">
                 <div class="contact-form-field"><label for="NewsLetter">Sign up for the Newsletter?</label>
