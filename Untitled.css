@@ -34,31 +34,12 @@
 
  .heading-link { margin-left: 10px; margin-right: 10px;}
  
- .top-nav {
-   //background-color: #800;
-   display: flex;
-   align-items: stretch;
-   border: black solid 2px;
-}
+ .border-nav {
+   border: solid 4px black;
+   padding: 4px;
+ }
 
-.top-nav-img {
-   --background-color: #080;
-   padding: 10px;
-}
-
-.top-nav-links {
-   --background-color: #008;
-   width: 100%;
-   margin-top: 100px;
-   text-align: right;
-}
 input:hover {color: grey;}
-
-.top-nav-link-item {
-   color: black;
-   padding-right: 100px;
-   font-size: 2em;
-}
 
 a:link {
    color: rgb(0, 0, 0);
@@ -189,9 +170,3 @@ body {
    background: #b6daff4d
 
 }
-
-
-
-
-
-
