@@ -1,3 +1,7 @@
+.inline-block {
+  display: inline-block;
+}
+
 .navigation {
     display: flex;
     flex-flow: row wrap;

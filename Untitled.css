@@ -98,7 +98,7 @@ a:link {
   }
 
    .shows-nav {
-      font-size: 1.1em;
+      font-size: 1em;
    }
   .shows-entry {
    margin-bottom: 25px;
@@ -123,6 +123,19 @@ a:link {
    width: 70%;
    font-size: 1.5em;
  }
+
+ .footer-entry {
+   margin-top: 25px;
+   margin-bottom: 25px;
+   padding: 15px;
+   background: black;
+   border: solid 10px #FFFFFF88;
+   color: white;
+  }
+  .footer-entry a {
+   color: #CCCCCC;
+  }
+
  .images { border: 5px; color:red; width: 2px; width:300px;}
 
   .contact-form {
@@ -169,7 +182,7 @@ a:link {
    }
 
 body {
-   //background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+   /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
    background: #b6daff4d
 
 }
