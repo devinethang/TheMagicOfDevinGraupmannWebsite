@@ -1,6 +1,9 @@
 html {
    overflow-y:scroll;
 }
+.Social {
+      float:right;
+}
 
 .red {
         color:red;
@@ -47,6 +50,7 @@ input:hover {color: grey;}
 
 a:link {
    color: rgb(0, 0, 0);
+   text-decoration: none;
  }
  
  
