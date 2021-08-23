@@ -23,7 +23,7 @@ commonFooter.innerHTML = `  <div class="footer-entry">
 <span class="Social"><a href="https://www.facebook.com/devin.graupmann" style="color: lightblue;" target="_blank">
 <img src="images/UsedPhotos/facebook_logo.png" alt="The Magic of Devin Graupmann Facebook" width="50"></a></span>
 
-<p><small>Copyright © 2021<span id="lblYear"></span>. Devin Graupmann. All rights reserved.</small></p>
+<p><small>Copyright &copy; 2021<span id="lblYear"></span>. Devin Graupmann. All rights reserved.</small></p>
 <script>
     if (new Date().getFullYear() > 2021) {
         lblYear.innerText = ' to ' + new Date().getFullYear();
