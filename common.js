@@ -1,17 +1,16 @@
-commonNav.innerHTML = `  <div class="border-nav">
+commonNav.innerHTML = `
     <div class="top-nav">
-        <ul class="navigation">
-            <span style="flex: 1;">
-            <li><img src="images/UsedPhotos/Devin1.jpg" alt="The Magic of Devin Graupmann" width="100"></li>
-            <h1>The Magic Of Devin&nbsp;Graupmann</h1>
-            </span>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shows_h3.html">Shows</a></li>
-            <li><a href="press.html">Press&nbsp;Kit</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
+    <img class="customNavLogo" style="position: absolute; padding: 20px;" width="200" src="images/navLogo2.png"/>
+    <ul class="navigation">
+        <li class="customNavLogo2"><img width="200" src="images/navLogo.png"/></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shows_h3.html">Shows</a></li>
+        <li><a href="press.html">Press&nbsp;Kit</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    <img style="width: 50%; background: black; padding-left: 25%; padding-right: 25%" src="images/UsedPhotos/shows.jpg"/>
 
-        </div>
+    </div>
     </div>
 `;
 
