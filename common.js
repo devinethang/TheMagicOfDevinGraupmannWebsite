@@ -2,10 +2,11 @@ commonNav.innerHTML = `
     <div class="top-nav">
     <img class="customNavLogo" style="position: absolute; padding: 20px;" width="200" src="images/navLogo2.png"/>
     <ul class="navigation">
-        <li class="customNavLogo2"><img width="200" src="images/navLogo.png"/></li>
+        <li class="customNavLogo2"><img width="200" src="images/UsesPhotos/navLogo2.png"/></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="shows_h3.html">Shows</a></li>
         <li><a href="press.html">Press&nbsp;Kit</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="Contact.html">Contact</a></li>
     </ul>
     <img style="width: 50%; background: black; padding-left: 25%; padding-right: 25%" src="images/UsedPhotos/shows.jpg"/>
