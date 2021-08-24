@@ -119,15 +119,18 @@ a:link {
    vertical-align: top;
  }
  .shows-left {
-   border: solid 2px #FFFFFF88
+   border: solid 2px #FFFFFF88;
+   width: 25%;
  }
  .shows-right {
    margin-top: -30px;
    margin-left: 100px;
-   width: 70%;
+   width: 60%;
    font-size: 1.5em;
  }
-
+.border-press {
+   border: solid black 3px;
+}
  .footer-entry {
    margin-top: 25px;
    margin-bottom: 25px;
