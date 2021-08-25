@@ -1,15 +1,15 @@
 commonNav.innerHTML = `
     <div class="top-nav">
-    <img class="customNavLogo" style="position: absolute; padding: 20px;" width="14%" src="images/navLogo2.png"/>
+    <img class="customNavLogo" style="position: absolute; padding: 20px;" width="14%" src="images/navLogo2.png" alt="Devin Graupmann logo image">
     <ul class="navigation">
-        <li class="customNavLogo2"><img width="200" src="images/navLogo.png"/></li>
+        <li class="customNavLogo2"><img width="200" src="images/navLogo.png"/ alt="Logo Image"></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="shows.html">Shows</a></li>
         <li><a href="press.html">Press&nbsp;Kit</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="Contact.html">Contact</a></li>
     </ul>
-    <img style="width: 50%; background: black; padding-left: 25%; padding-right: 25%" src="images/UsedPhotos/shows.jpg"/>
+    <img style="width: 50%; background: black; padding-left: 25%; padding-right: 25%" src="images/UsedPhotos/shows.jpg" alt="Devin Graupmann">
 
     </div>
     </div>
